@@ -1,0 +1,10 @@
+spring: 
+  data: 
+    mongodb: 
+      uri: "mongodb+srv://appAsUser:Passw0rd123@inventorymanager-zgagc.mongodb.net/InventoryManager?retryWrites=true&w=majority"
+logging:
+  level: 
+    org:
+      springframework: 
+        web: debug        
+    
